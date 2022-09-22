@@ -1,0 +1,25 @@
+*{
+    /* margin: 0%;
+    padding: 0%; */
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.header_ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    padding-top: 30px;
+}
+
+.header_ul a{
+    text-decoration: none;
+    color: darkgrey;
+}
+.header_ul li{
+    padding-inline: 20px;
+}
+main{
+    width: 100vw;
+    padding-inline: 35px;
+}
