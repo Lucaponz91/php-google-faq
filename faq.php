@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php $faq = [
+    <?php $faqs = [
         [
             "question" => "<h2>Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?</h2>",
             "answer" => "<p>La recente decisione della Corte di giustizia dell'Unione europea 
@@ -99,6 +99,17 @@
     ]
 
     ?>
+    <div class="main_content" >
+        <?php 
+            foreach ($faqs as $faq){
+                // var_dump($faq);
+                echo ($faq["question"]);
+                echo ($faq["answer"]);
+                 
+            }
+        
+        ?>
+    </div>
 
 
 
